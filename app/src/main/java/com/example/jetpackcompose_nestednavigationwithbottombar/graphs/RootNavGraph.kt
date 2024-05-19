@@ -7,7 +7,9 @@ import androidx.navigation.compose.composable
 import com.example.jetpackcompose_nestednavigationwithbottombar.ui.screens.HomeScreen
 
 @Composable
-fun RootNavGraph(navController: NavHostController) {
+fun RootNavGraph(
+    navController: NavHostController
+) {
     NavHost(
         navController = navController,
         route = Graph.ROOT,
